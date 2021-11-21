@@ -14,8 +14,8 @@ public class ContinueDemo {
             if (slovo !=slovoNiza){
                 continue;
             }
+            System.out.println("Nađoh opet p...");
             brojacP++;
-
         }
         System.out.println("Slovo p se ponavlja: " + brojacP + " puta");
     }
